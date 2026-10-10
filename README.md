@@ -124,6 +124,6 @@ Tests use temporary databases and fake providers. They cover isolation, interpre
 
 Copyright (c) 2026 Olawale Omotoso. Code is under the [MIT license](LICENSE), including commercial and closed-source reuse, with preservation of the copyright/license notice. Third-party packages retain their own terms; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
-You are welcome to fork and reuse this project. I am not actively seeking contributions or promising ongoing support. Develop changes in your own fork. Reuse rights do not depend on contributing changes back.
+You are welcome to fork, reuse and suggest changes through pull requests. I may review contributions when time allows, but I do not promise a review, merge or ongoing support. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to propose a change. Reuse rights do not depend on contributing changes back.
 
 Linked case-study/video materials are separate; MIT does not relicense them or third-party brands. This source contains no real payment execution integration. Turning it into a financial service requires separate product, security and integration work.

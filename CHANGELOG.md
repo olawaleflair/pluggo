@@ -11,5 +11,6 @@ Source implementation: `6ac71b91c98c3001b30414dce6195dc266185929`.
 - Owner deployment identifiers replaced by local placeholders; blank Worker credential examples added.
 - Private data, credentials, captures, installed dependencies, generated builds, unused starter logos and historical Supabase/Flutterwave integration excluded.
 - Page metadata now describes a simulated portfolio prototype rather than instant bill payments.
+- Clarifies that optional pull requests are welcome without a review, merge or support promise; adds a guide for independent forks and proposed changes.
 
 Payment and authentication code is unchanged from the implementation commit. The existing demo, approved case study and walkthrough are maintained separately. This snapshot does not execute real payments or deploy the existing demo.
