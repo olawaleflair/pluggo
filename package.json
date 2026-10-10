@@ -1,0 +1,45 @@
+{
+  "name": "pluggo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server/dev.js",
+    "api": "node server/index.js",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "test": "node --test server/*.test.js",
+    "prove:ai": "node server/proveAI.js",
+    "build:public": "VITE_PUBLIC_DEMO=true vite build",
+    "dev:public": "npm run build:public && wrangler dev --port 8787",
+    "deploy:public": "npm run build:public && wrangler deploy",
+    "test:worker": "node --test worker/*.test.js",
+    "db:local": "wrangler d1 migrations apply pluggo-demo --local",
+    "db:remote": "wrangler d1 migrations apply pluggo-demo --remote"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@tailwindcss/vite": "^4.2.0",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "lucide-react": "^0.575.0",
+    "react-router-dom": "^7.13.0",
+    "tailwindcss": "^4.2.0",
+    "vite": "^7.3.1",
+    "wrangler": "^4.147.0"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "license": "MIT"
+}

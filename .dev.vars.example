@@ -1,0 +1,5 @@
+# Optional local Worker credentials. Copy to ignored .dev.vars.
+# Leave keys empty for the local parser and fictional account names.
+GROQ_API_KEY=
+GROQ_MODEL=openai/gpt-oss-120b
+PAYSTACK_SECRET_KEY=
